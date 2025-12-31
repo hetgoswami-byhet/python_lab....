@@ -1,0 +1,114 @@
+Python 3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+x=10
+print(x)
+10
+#unary operator
+a=5
+print(-a)
+-5
+
+#relational operators
+p=10
+q=5
+print(p>q)
+True
+print(p==q)
+False
+
+#logical operators
+x=true
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    x=true
+NameError: name 'true' is not defined. Did you mean: 'True'?
+y= false
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    y= false
+NameError: name 'false' is not defined. Did you mean: 'False'?
+print(x and y)
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    print(x and y)
+NameError: name 'y' is not defined
+x = True
+y = False
+print(x and y)
+print(x or y)
+print(not x)
+
+SyntaxError: multiple statements found while compiling a single statement
+x=True
+y=False
+print(x and y)
+False
+print(x or y)
+True
+print(not x)
+False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>> 
+>>> #bollean data type
+>>> is_pass=True
+>>> print(is_pass)
+True
+>>> 
+>>> #bitwise operators
+>>> a=5
+>>> b=3
+>>> print(a&b)
+1
+>>> print(a|b)
+7
+>>> 
+>>> #membership operators
+>>> numbers[1,2,3,4,5,6]
+Traceback (most recent call last):
+  File "<pyshell#42>", line 1, in <module>
+    numbers[1,2,3,4,5,6]
+NameError: name 'numbers' is not defined. Did you forget to import 'numbers'?
+>>> numbers = [1,2,3,4,5,6]
+>>> 
+>>> print(2 in numbers)
+True
+>>> print(5 in numbers)
+True
+>>> 
+>>> #identity operators
+>>> x = 10
+>>> y = 10
+>>> print(x is y)
+True
+>>> print(x is not y)
+False
+
+>>> #airthmaetic operators
+>>> x = 10
+>>> y = 3
+>>> print(x + y)
+13
+>>> print(x - y)
+7
+>>> print(x * b)
+30
+>>> print(x / b)
+3.3333333333333335
