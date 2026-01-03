@@ -47,25 +47,6 @@ print(x or y)
 True
 print(not x)
 False
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 >>> 
 >>> #bollean data type
 >>> is_pass=True
