@@ -43,3 +43,40 @@ length = float(input("Enter length: "))
 width = float(input("Enter width: "))
 perimeter = 2 * (length + width)
 print("Perimeter of Rectangle:", perimeter)
+# 7
+length = float(input("Enter length of rectangle: "))
+width = float(input("Enter width of rectangle: "))
+
+area = length * width
+perimeter = 2 * (length + width)
+
+print("Area of Rectangle:", area)
+print("Perimeter of Rectangle:", perimeter)
+
+
+# 8
+a = float(input("Enter side a of triangle: "))
+b = float(input("Enter side b of triangle: "))
+c = float(input("Enter side c of triangle: "))
+
+perimeter_tri = a + b + c
+
+print("Perimeter of Triangle:", perimeter_tri)
+
+
+# 9
+side_square = float(input("Enter side of square: "))
+
+area_square = side_square * side_square
+perimeter_square = 4 * side_square
+
+print("Area of Square:", area_square)
+print("Perimeter of Square:", perimeter_square)
+
+
+# 10
+side_sq = float(input("Enter side of square: "))
+
+perimeter_sq = 4 * side_sq
+
+print("Perimeter of Square:", perimeter_sq)
