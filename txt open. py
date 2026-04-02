@@ -1,0 +1,4 @@
+src = open("one.txt", "r")
+data = src.read()
+src.close()
+
