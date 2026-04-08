@@ -1,0 +1,5 @@
+f = open("myfile.txt","a")
+f.write("my name is vraj")
+f.write("welcome to python file")
+f.write("learning is fun")
+f.close()
