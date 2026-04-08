@@ -1,6 +1,6 @@
 
 # Q1: Display a welcome message
-print("Welcome to Python Programming!")
+prnt("Welcome to Python Programming!")
 
 
 # Q2: Print address using \t for tab and \n for new line
